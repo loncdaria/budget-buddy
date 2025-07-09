@@ -58,9 +58,9 @@ RSpec.describe "CreateTransaction Mutation", type: :request do
       {
         input: {
           userId: user.id,
-          amount: -10, # Invalid amount
-          transactionType: "invalid", # Invalid type
-          category: nil, # Required when expense
+          amount: -10,
+          transactionType: "invalid",
+          category: nil,
           description: "Niepoprawna transakcja",
           date: "2025-06-01"
         }

@@ -18,7 +18,7 @@ module Types
       ids.map { |id| context.schema.object_from_id(id, context) }
     end
 
-    # Example field
+    # Example field - zostawiam dla testów
     field :test_field, String, null: false, description: "An example field added by the generator"
     def test_field
       "Hello World!"

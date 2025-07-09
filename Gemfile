@@ -53,11 +53,22 @@ group :development, :test do
   
   gem 'graphiql-rails', group: :development
 
+
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'shoulda-matchers', '~> 5.0'
+  ##debugger
+  gem "ruby-debug-ide", "~> 0.7.5"
+  gem "debase", "~> 0.2.9"
+
+  gem 'pry'
+  gem 'pry-rails'
+
+  ##debugger koniec
 
 
 
 end
+
+

@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "rdbg",
+            "name": "Rails server",
+            "request": "launch",
+            "script": "bin/rails",
+            "args": [
+                "server"
+            ],
+            "useBundler": true
+        },
+        {
+            "type": "rdbg",
             "name": "Debug current file with rdbg",
             "request": "launch",
             "script": "${file}",
