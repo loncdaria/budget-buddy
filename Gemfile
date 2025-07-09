@@ -57,7 +57,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
-  gem 'shoulda-matchers', '~> 5.0'
+  gem 'shoulda-matchers', '~> 6.5'
   ##debugger
   gem "ruby-debug-ide", "~> 0.7.5"
   gem "debase", "~> 0.2.9"
